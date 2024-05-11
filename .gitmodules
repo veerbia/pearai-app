@@ -1,0 +1,3 @@
+[submodule "extensions/pearai-extension"]
+	path = extensions/pearai-extension
+	url = https://github.com/trypear/pearai-extension.git
