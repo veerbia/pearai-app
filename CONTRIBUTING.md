@@ -31,7 +31,7 @@ PearAI is a fork of VSCode, so simply follow VSCode's guide for running to app.
 
 The extension can be run in two ways:
 
-Interally within the main PearAI application (which is a VSCode fork): https://github.com/trypear/pearai/
+Internally within the main PearAI application (which is a VSCode fork): https://github.com/trypear/pearai/
 
 Externally as an extension: https://github.com/trypear/pearai-extension/
 
