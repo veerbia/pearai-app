@@ -25,17 +25,15 @@
 19. [Coding Standards](#coding-standards)
 20. [Community](#community)
 
-This is the main app for PearAI. The bulk of the functionality is within `extension/pearai`. We recommend simply working within that submodule, by cloning https://github.com/trypear/pearai-extension/.
+This is the main app for PearAI. The bulk of the functionality is within `extension/pearai-extension`. Almost all the contributions should be in this subdirectory.
 
-PearAI is a fork of VSCode, so simply follow VSCode's guide for running to app.
+PearAI is a fork of VSCode, so simply follow VSCode's guide for running the app.
 
 The extension can be run in two ways:
 
-Interally within the main PearAI application (which is a VSCode fork): https://github.com/trypear/pearai/
+RECOMMENDED: Interally within the main PearAI application (which is a VSCode fork): https://github.com/trypear/pearai/. This guide is for running it internally.
 
-Externally as an extension: https://github.com/trypear/pearai-extension/
-
-This guide is for running it internally. For running it externally, you will want to `cd` into `extensions/pearai-extension` and visit [Contributing to pearai-extension](https://github.com/trypear/pearai-extension/blob/main/CONTRIBUTING.md)
+Standalone as an extension. For running it standalone, you will want to `cd` into `extensions/pearai-extension` and visit [Contributing to pearai-extension](extensions/pearai-extension/CONTRIBUTING.md)
 
 After cloning and building the repo, check out the [issues list](https://github.com/Microsoft/vscode/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue). Issues labeled [`help wanted`](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) are good issues to submit a PR for. Issues labeled [`good first issue`](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) are great candidates to pick up if you are in the code for the first time. If you are contributing significant changes, or if the issue is already assigned to a specific month milestone, please discuss with the assignee of the issue first before starting to work on the issue.
 
