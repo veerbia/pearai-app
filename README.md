@@ -17,3 +17,20 @@ You can also:
 * Review [source code changes](https://github.com/trypear/pearai/pulls)
 * Review the [documentation](https://github.com/trypear/pearai-docs) and make pull requests for anything from typos to additional and new content
 
+### Common errors
+
+#### No main.js found
+```
+[Error: ENOENT: no such file or directory, open 'fryingpan/pearai/out/vs/code/electron-main/main.js'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'fryingpan/code/pearai/out/vs/code/electron-main/main.js',
+  phase: 'loading',
+  moduleId: 'vs/code/electron-main/main',
+  neededBy: [ '===anonymous1===' ]
+}
+```
+- Remove the build and re-ran script `rm -rf out`
+- `./scripts/code.sh`
+
