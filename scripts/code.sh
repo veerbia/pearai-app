@@ -2,7 +2,7 @@
 
 set -e
 
-(cd extensions/pearai-extension && pnpm install && pnpm build-all)
+(cd extensions/pearai-extension && yarn install && yarn build-all)
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
 	realpath() { [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"; }
